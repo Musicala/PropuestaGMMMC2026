@@ -1,0 +1,412 @@
+{
+  "meta": {
+    "titulo": "Propuesta técnica y financiera — Programación de formación artística Casas Kiwa · Fundación San Antonio",
+    "subtitulo": "Escuela de educación artística Musicala",
+    "version": "v1.3 (App Web) — Alcance: GMMMC (Porras, Danza, Artes Plásticas)",
+    "periodo": {
+      "inicio": "2026-03-02",
+      "fin": "2026-11-28",
+      "meses": 9
+    },
+    "areas": [
+      "Porras",
+      "Danza",
+      "Artes Plásticas"
+    ],
+    "ciclos": [
+      { "id": "I", "rango": "6–9" },
+      { "id": "II", "rango": "9–11" },
+      { "id": "III", "rango": "12–14" },
+      { "id": "IV", "rango": "15–16" }
+    ],
+    "centros": [
+      "GMMMC"
+    ],
+    "nna_estimado": null,
+
+    "indicadores_base": {
+      "moneda": "COP",
+      "hora_base": 55000,
+      "valor_hora_efectiva": 55000,
+      "horas_semanales_base": 12,
+      "horas_efectivas_periodo": 476,
+      "precio_mensual": 2908889,
+      "precio_anual": 26180000
+    }
+  },
+
+  "resumen_ejecutivo": [
+    "Musicala propone un programa de formación artística para NNA del centro GMMMC, enfocado en Porras, Danza y Artes Plásticas.",
+    "El modelo operativo incluye planeación pedagógica, coordinación académica y administrativa, reportes y seguimiento digital con trazabilidad mediante aplicativos.",
+    "La propuesta se ejecuta con 12 horas semanales y se presupuesta con base en 476 horas efectivas del periodo a $55.000 por hora."
+  ],
+
+  "metodologia": {
+    "nombre": "CREA",
+    "pilares": [
+      {
+        "nombre": "Concentración",
+        "descripcion": "Actividades cortas, variadas y sistemáticas que fortalecen hábitos, enfoque y disciplina."
+      },
+      {
+        "nombre": "Rapidez",
+        "descripcion": "Estructuras pedagógicas que aceleran el aprendizaje con resultados tempranos y guías de apoyo."
+      },
+      {
+        "nombre": "Efectividad",
+        "descripcion": "Resultados medibles mediante evidencias, muestras de proceso y evaluación formativa continua."
+      },
+      {
+        "nombre": "Adaptación",
+        "descripcion": "Programas ajustados a niveles, ritmos e intereses; enfoque inclusivo por ciclos y contexto."
+      }
+    ],
+    "recursos": [
+      "Guías y planeación pedagógica por sesión",
+      "Aplicativos de seguimiento (asistencia, evidencias, observaciones, reportes)",
+      "Muestras de proceso y cierre (clases abiertas, exposiciones, presentaciones)"
+    ],
+    "enfoques_transversales": [
+      {
+        "nombre": "Enfoque para NNA en contextos de vulnerabilidad",
+        "puntos": [
+          "Ambiente seguro y predecible: acuerdos claros, rutinas estables y contención emocional sin autoritarismo.",
+          "Pedagogía sensible al trauma: evitamos exposición innecesaria, cuidamos disparadores y priorizamos la dignidad.",
+          "Participación activa: los NNA co-crean reglas, roles y piezas artísticas; se fortalece agencia y pertenencia.",
+          "Aprendizaje por ciclos (I–IV): metas realistas por edad, andamiaje y trabajo colaborativo inter-edad cuando aplica."
+        ]
+      },
+      {
+        "nombre": "Arte como gestión emocional y habilidades para la vida",
+        "puntos": [
+          "Regulación emocional: respiración, pausas activas, calentamientos somáticos y 'check-in/check-out' breve por sesión.",
+          "Comunicación y convivencia: prácticas de escucha, turnos, acuerdos, reparación y reconocimiento entre pares.",
+          "Autoestima y sentido de logro: micro-metas, retroalimentación cálida + específica y evidencias visibles de progreso.",
+          "Creatividad con propósito: piezas que narran su territorio, identidad y sueños; enfoque restaurativo y comunitario."
+        ]
+      },
+      {
+        "nombre": "Metodologías activas (lúdicas y formativas)",
+        "puntos": [
+          "Juego serio: dinámicas con reglas simples, objetivos claros y cierre reflexivo (qué aprendí, qué sentí, qué mejoro).",
+          "Aprendizaje basado en proyectos: montajes, exposiciones y muestras con entregables por mes.",
+          "Trabajo cooperativo: roles rotativos (líder, apoyo, observador) para responsabilidad compartida.",
+          "Evaluación formativa: rúbricas simples por ciclo, bitácoras docentes y portafolios de evidencias."
+        ]
+      }
+    ],
+    "protocolos_socioemocionales": [
+      "Rutina de inicio (3–5 min): saludo, norma del día, check-in emocional.",
+      "Rutina de cierre (3–5 min): logros, gratitud/reconocimiento, check-out.",
+      "Manejo de situaciones: pausa, respiración, conversación breve, reenganche; escalamiento con líder si se requiere.",
+      "Registro de novedades: observación objetiva + acción tomada + seguimiento (en aplicativo)."
+    ]
+  },
+
+  "operacion": {
+    "modelo": "Presupuesto mensual fijo basado en horas efectivas del periodo",
+    "incluye": [
+      "Docencia programada en GMMMC (12 horas semanales)",
+      "Planeación y alistamiento pedagógico",
+      "Reuniones con líder de centro (según necesidad operativa)",
+      "Informes mensuales y cierre",
+      "Muestras y presentaciones",
+      "Seguimiento en aplicativos con trazabilidad"
+    ],
+    "no_incluye": [
+      "Refrigerios o transporte de NNA (si aplica)",
+      "Alquiler de auditorios externos (si se requiere)",
+      "Acompañamiento presencial para supervision",
+      "Materiales artísticos físicos (si se requieren, se gestionan por el centro o mediante acuerdo adicional)"
+    ],
+    "horas": {
+      "semanales_por_centro": {
+        "GMMMC": 12
+      },
+      "total_semanal_base": 12,
+      "cobertura_semanal": {
+        "entre_semana": [
+          { "area": "Danza", "horas": 2 },
+          { "area": "Artes Plásticas", "horas": 2 }
+        ],
+        "sabado": [
+          { "area": "Porras", "horas": 4 },
+          { "area": "Danza", "horas": 2 },
+          { "area": "Artes Plásticas", "horas": 2 }
+        ],
+        "total_horas_semana": 12
+      },
+      "nota_programacion": "Los días exactos y franjas horarias se definirán de común acuerdo según la disponibilidad del equipo docente y la operación del centro."
+    },
+    "evaluacion_monitoreo": {
+      "instrumentos": [
+        "Observaciones en sesión y registros",
+        "Evidencias de proceso (foto/video/producciones)",
+        "Portafolios por grupo",
+        "Indicadores: asistencia, participación, progresión por área"
+      ],
+      "reportes": [
+        "Informe mensual (cobertura, avances, hallazgos, acciones)",
+        "Informe final de cierre (logros, métricas, recomendaciones)"
+      ]
+    }
+  },
+
+  "equipo": {
+    "docentes": [
+      {
+        "id": "G01",
+        "nombre": "Docente Danza",
+        "area": "Danza",
+        "horas_sem": 4,
+        "activo": true
+      },
+      {
+        "id": "G02",
+        "nombre": "Docente Artes Plásticas",
+        "area": "Artes Plásticas",
+        "horas_sem": 4,
+        "activo": true
+      },
+      {
+        "id": "G03",
+        "nombre": "Docente Porras",
+        "area": "Porras",
+        "horas_sem": 4,
+        "activo": true
+      }
+    ],
+    "operativos": [
+      {
+        "id": "A01",
+        "nombre": "Coordinación administrativa",
+        "rol": "Coordinación administrativa",
+        "activo": true
+      },
+      {
+        "id": "A02",
+        "nombre": "Coordinación académica",
+        "rol": "Coordinación académica",
+        "activo": true
+      },
+      {
+        "id": "A03",
+        "nombre": "Atención y asesoría",
+        "rol": "Atención y asesoría",
+        "activo": true
+      }
+    ]
+  },
+
+  "finanzas": {
+    "modelo": "Presupuesto mensual fijo",
+    "moneda": "COP",
+    "hora_base": 55000,
+    "valor_hora_efectiva": 55000,
+    "horas_efectivas_total_periodo": 476,
+    "meses": 9,
+
+    "tarifa_mensual": 2908889,
+    "total_9_meses": 26180000,
+    "total_estimado": 26180000,
+
+    "ajuste_redondeo": {
+      "detalle": "La tarifa mensual se redondea a $2.908.889. Para mantener el total anual exacto ($26.180.000), se ajusta $1 peso en el cierre del periodo (o un mes se factura en $2.908.888)."
+    },
+    "explicacion": [
+      "Cálculo anual: 476 horas efectivas × $55.000 = $26.180.000 COP.",
+      "Tarifa mensual fija: $2.908.889 durante 9 meses.",
+      "En la sección 'Total (9 meses)' se presenta el valor anual total del periodo."
+    ],
+    "cronograma_pago": {
+      "periodicidad": "Mensual",
+      "fecha_limite_dia": 25,
+      "soporte": "Cada pago se acompaña de informe mensual de avance (cobertura, evidencias, hallazgos y acciones)."
+    }
+  },
+
+  "evidencias": {
+    "videos": [
+      { "titulo": "Salón de estimulación artística", "url": "https://youtu.be/AjubTKNRwa4" },
+      { "titulo": "Salones de artes plásticas", "url": "https://youtu.be/6lbHym83iX4" },
+      { "titulo": "Salones de danza", "url": "https://youtu.be/IZpEU2wZyhM" },
+      { "titulo": "Salones de música", "url": "https://youtu.be/0cahOp_t6zE" }
+    ],
+    "nota": "En esta versión se listan videos institucionales. Se pueden añadir fotos, reels o links específicos de GMMMC por área."
+  },
+
+  "anexos": {
+    "tsv_horario_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSJEzW4KRUBjn22NGjJf8r162Hg7ZMYGri6xnX6dZcSRkCgbKxHrnwoe8eZRCPE_4-iyjnZ6JRMa58A/pub?gid=214963294&single=true&output=tsv"
+  },
+
+  "aplicativos": [
+    {
+      "nombre": "Calendario Kiwa 2026",
+      "link": "https://alekcaballero20.github.io/calendariokiwa//",
+      "tipo": "Pantalla",
+      "seccion": "📂 Principal"
+    },
+    {
+      "nombre": "Informes de gestión y tableros de control",
+      "link": "https://musicala.github.io/menuinformesytableros/",
+      "tipo": "Nueva",
+      "seccion": "📂 Principal"
+    },
+    {
+      "nombre": "Registro de puntualidad",
+      "link": "https://musicala.github.io/registropuntualidad/",
+      "tipo": "Pantalla",
+      "seccion": "📂 Principal"
+    },
+    {
+      "nombre": "Informe de asistencia",
+      "link": "https://lookerstudio.google.com/reporting/46386242-adff-436e-81b3-b30b638f6d63",
+      "tipo": "Nueva",
+      "seccion": "📂 Principal"
+    },
+    {
+      "nombre": "Galería de imágenes",
+      "link": "https://musicala.github.io/galeriakiwa/",
+      "tipo": "Pantalla",
+      "seccion": "📂 Principal"
+    },
+    {
+      "nombre": "Perfil Equipo Kiwa",
+      "link": "https://musicala.github.io/perfilesmusicala//",
+      "tipo": "Pantalla",
+      "seccion": "📂 Principal"
+    },
+    {
+      "nombre": "Documentos Administrativos",
+      "link": "https://musicala.github.io/documentosadminfsa/",
+      "tipo": "Pantalla",
+      "seccion": "📂 Principal"
+    },
+    {
+      "nombre": "Documentos Académicos",
+      "link": "https://musicalaescuela.github.io/documentosKiwa2025/",
+      "tipo": "Pantalla",
+      "seccion": "📂 Principal"
+    },
+    {
+      "nombre": "Protocolos",
+      "link": "https://musicala.github.io/protocolopuntualidad/",
+      "tipo": "Nueva",
+      "seccion": "📂 Principal"
+    },
+    {
+      "nombre": "Horario GMMMC",
+      "link": "https://musicala.github.io/horariogmmmc/",
+      "tipo": "Pantalla",
+      "seccion": "⏰ Horarios"
+    },
+    {
+      "nombre": "Registros de clase GMMMC",
+      "link": "https://musicalaescuela.github.io/registroGMMMC/",
+      "tipo": "Pantalla",
+      "seccion": "📚 Registros de Clase"
+    },
+    {
+      "nombre": "Reglas y compromisos Docentes",
+      "link": "https://fsainforme.my.canva.site/reglasycompromisos",
+      "tipo": "Nueva",
+      "seccion": "👩‍🏫 Seguimiento Docente"
+    },
+    {
+      "nombre": "Capacitaciones a Docentes",
+      "link": "https://musicala.github.io/capacitacionesdocentesfsa/",
+      "tipo": "Pantalla",
+      "seccion": "👩‍🏫 Seguimiento Docente"
+    },
+    {
+      "nombre": "Diagnósticos Iniciales",
+      "link": "https://musicala.github.io/diagnosticoinicialkiwa/",
+      "tipo": "Nueva",
+      "seccion": "📝 Diagnósticos / Proyectos / Muestras"
+    },
+    {
+      "nombre": "Proyectos",
+      "link": "https://musicala.github.io/proyectosfsa/",
+      "tipo": "Pantalla",
+      "seccion": "📝 Diagnósticos / Proyectos / Muestras"
+    },
+    {
+      "nombre": "Muestras de Proceso",
+      "link": "https://musicala.github.io/muestrasdeprocesofsa/",
+      "tipo": "Pantalla",
+      "seccion": "📝 Diagnósticos / Proyectos / Muestras"
+    }
+  ],
+
+  "artes": [
+    {
+      "id": "porras",
+      "nombre": "Porras (Disciplina, coordinación y trabajo en equipo)",
+      "proposito": "Las porras se trabajan como un lenguaje corporal y rítmico que fortalece disciplina, coordinación, trabajo en equipo y liderazgo, promoviendo convivencia, pertenencia y autorregulación.",
+      "ejes": [
+        "Bases técnicas: postura, coordinación, conteo, ritmo y formaciones.",
+        "Trabajo en equipo: acuerdos, roles, apoyo mutuo y liderazgo positivo.",
+        "Montaje progresivo: secuencias, limpiezas, ensayos y presentación.",
+        "Convivencia: normas claras, respeto, reparación y cuidado del grupo."
+      ],
+      "metodologias_participacion": [
+        "Entrada gradual: movimientos simples por niveles sin exposición obligatoria.",
+        "Roles alternos: conteo, liderazgo de fila, apoyo de ritmo, guía de formaciones.",
+        "Rutina segura: calentamiento, estiramiento y pausas activas.",
+        "Cierre: reconocimiento grupal + 'qué logré hoy'."
+      ],
+      "productos_evidencias": [
+        "Montaje por etapas (registro audiovisual mensual).",
+        "Presentación de cierre en el centro (según condiciones logísticas).",
+        "Bitácora de progreso grupal (logro técnico + socioemocional)."
+      ]
+    },
+    {
+      "id": "danza",
+      "nombre": "Danza (Movimiento, participación y gestión emocional)",
+      "proposito": "La danza se trabaja como un lenguaje corporal que fortalece la coordinación, la autoestima, la autorregulación y el sentido de pertenencia. En contextos de vulnerabilidad, priorizamos la seguridad emocional, la participación gradual y el respeto por los ritmos individuales.",
+      "ejes": [
+        "Cuerpo seguro: calentamiento, respiración, conciencia corporal y prevención de lesiones.",
+        "Ritmo y coordinación: pulso, conteo, lateralidad, patrones motrices.",
+        "Creación colectiva: coreografías por equipos con roles rotativos (líder, creador, observador, cuidador del grupo).",
+        "Expresión emocional: el movimiento como herramienta para reconocer, canalizar y transformar emociones."
+      ],
+      "metodologias_participacion": [
+        "Entrada suave: participación desde filas, parejas o movimientos simples sin exposición obligatoria.",
+        "Opciones de rol: bailar, marcar con manos, llevar el conteo, apoyar musicalmente.",
+        "Semáforo emocional: verde (activo), amarillo (suave), rojo (observa y respira).",
+        "Cierres rituales: estiramiento + palabra de gratitud + 'qué me llevo hoy'."
+      ],
+      "productos_evidencias": [
+        "Mini-muestras mensuales por grupo (videos cortos).",
+        "Bitácora de progreso (logro técnico + logro socioemocional).",
+        "Muestra final adaptada al centro."
+      ]
+    },
+    {
+      "id": "artes_plasticas",
+      "nombre": "Artes Plásticas (Calma, identidad y expresión simbólica)",
+      "proposito": "Las artes visuales permiten desarrollar técnica y creatividad, y funcionan como herramienta de calma, concentración y expresión simbólica. Son especialmente valiosas para NNA que necesitan espacios de regulación emocional y construcción de identidad.",
+      "ejes": [
+        "Técnica base: línea, forma, sombreado, textura.",
+        "Color y emoción: paletas emocionales, contraste, composición.",
+        "Proyectos con sentido: murales, ilustraciones, afiches comunitarios.",
+        "Cultura y territorio: símbolos del barrio, sueños y referentes positivos."
+      ],
+      "metodologias_participacion": [
+        "Elección guiada: 3 opciones de actividad para dar control y reducir resistencia.",
+        "Trabajo por estaciones: rotaciones cortas para mantener concentración.",
+        "Ritual de inicio: 'trazo de aterrizaje' + respiración consciente.",
+        "Cierre amable: mini-galería, feedback con 'me gustó / me pregunto'."
+      ],
+      "productos_evidencias": [
+        "Portafolio por estudiante (fotos del proceso).",
+        "Exposición por centro o pieza colectiva.",
+        "Muestra final tipo galería comunitaria."
+      ]
+    }
+  ],
+
+  "periodo": "2026-03-02 → 2026-11-28",
+  "aplicativos_intro": "Musicala implementa un ecosistema de aplicativos digitales desarrollados específicamente para el proyecto Casas Kiwa, garantizando seguimiento en tiempo real, evidencias pedagógicas, reportes mensuales, organización documental y trazabilidad por centro."
+}
